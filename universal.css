@@ -1,0 +1,305 @@
+
+html{
+	background-color:#616161;
+}
+*{
+	color:#FFFFFF;
+	border:none;
+	margin: 0px;
+}
+hl,u{
+	color:#0091EA;
+}
+.Card{
+	width: 98%;
+	background-color: #424242; 
+	height:auto;
+	text-align: left;
+	vertical-align: middle;
+	padding: 1vh;
+	font-size: 100%;
+	overflow: hidden;
+	margin-top: 4px;
+}
+.CardDetails{
+	width: 70%;
+	font-size:70%;
+	display: block;
+	float: left;
+}
+.PlaqIMG{
+	max-height:100%;
+	max-width:100%;	
+	object-fit: contain;
+	float: left;
+	margin-right: : 0vh;
+	margin-left: 0vh;
+	margin: 1vh;
+	margin-bottom: 1vh;
+}
+hr{
+	height: 0.325vh;
+	color:#0091EA;
+	background-color:#0091EA;
+	margin-bottom: 2px 
+}
+}
+.List{
+	background-color:#616161;
+	border: none; 
+	border-style:none ;
+	font-size:3vw;	
+}
+.ContentHolder{
+	text-align: left;
+	position: static;
+	z-index: 0;
+	vertical-align: top;
+	margin-top:12.5vh;
+	width: 97%; margin-left:4;
+	border: none;
+	border-style:none ;
+	font-size:4vh;
+
+}
+.ListElement{
+	color:#FFFFFF;
+	border: none;
+	border-style:none ;
+	font-size:3vh;
+}
+.FixedHeading{
+	position: fixed;
+	z-index: 2;
+	top: 0px;
+	left:0px;
+	background-color: #212121;
+	width:100%;
+	border: none;
+	border-style:none ;
+	font-size: 9vh;
+	
+}
+.Seperator{
+	height:0.5vh;
+	width: 100%;
+	background-color:#0091EA;
+}
+ .ListButton{
+ 	position: static;
+	color:#FFFFFF;
+	width: 100%;
+	text-align: left;
+	margin-top:2px;
+	margin-bottom: 1px;
+	padding: 0vh;
+	background-color:#616161;
+	border: none;
+	height: 7vh;
+	border-style:none ;
+	font-size:5vh;
+}
+.StandardButton{
+  font-size: 2vh;
+  display: inline-block;
+  height: 4vh;
+  margin:1vh;
+  min-width: 88px;
+  padding: 6px 16px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border:0;
+  border-radius: 2px;
+  background: #0091EA;
+  color:#ffffff;
+  outline:0;
+  &:focus {
+    background: darken($md-btn-color, 12%);  
+  }
+}	
+
+.SecondaryButton{
+  font-size: 2vh;
+  display: inline-block;
+  height: 4vh;
+  margin:1vh;
+  min-width: 88px;
+  padding: 6px 16px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border:0;
+  border-radius: 2px;
+  background: #ffffff;
+  color:#0091EA;
+  outline:0;
+  &:focus {
+    background: darken($md-btn-color, 12%);  
+  }
+}	
+}
+
+@media only screen and (max-width:1080px) and (min-width:309px)  {
+  /* For mobile phones: */
+  .FixedHeading{
+    position: fixed;
+	z-index: 2;
+	top: 0px;
+	left:0px;
+	background-color: #212121;
+	width:100%;
+	border: none;
+	border-style:none ;
+	font-size: 9vh;
+  }
+  .ListElement{
+	color:#FFFFFF;
+	border: none;
+	border-style:none ;
+	font-size:3vh;
+}
+ 
+.ContentHolder{
+	position: static;
+	z-index: 0;
+	margin-top:14vh;
+	margin-left: 1vh;
+	vertical-align: top;
+	width: 97%; margin-left:4;
+	border: none;
+	text-align: justify;
+	border-style:none ;
+	font-size:3vh;
+
+
+}
+.StandardButton{
+  font-size: 70%;
+  display: inline-block;
+  height: 36px;
+  min-width: 88px;
+  padding: 6px 16px;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border:0;
+  border-radius: 4px;
+  background: #0091EA;
+  color:#fff;
+  outline:0;
+  &:focus {
+    background: darken($md-btn-color, 12%)  ;
+  }
+}
+.Card{
+	width: 98%;
+	background-color: #424242; 
+	height:23vh;
+	text-align: left;
+	vertical-align: middle;
+	padding: 1vh;
+	font-size: 4vh;
+}
+.CardDetails{
+	font-size:3vh%;
+}
+.PlaqIMG{
+	max-width: 20vh;
+	max-height: 20vh;
+	object-fit: contain;
+	float: left;
+	margin-right: : 5vh;
+	margin-left: 0vh;
+	margin: 1vh;
+	margin-bottom: 1vh;
+}	
+}
+@media only screen and (max-width:309px) {
+  /* For mobile phones: */
+  .FixedHeading{
+    position: fixed;
+	z-index: 2;
+	top: 0px;
+	left:0px;
+	background-color: #212121;
+	width:100%;
+	border: none;
+	border-style:none ;
+	font-size: 9vh;
+  }
+  .ListElement{
+	color:#FFFFFF;
+	border: none;
+	border-style:none ;
+	font-size:5vh;
+}
+.ContentHolder{
+	position: static;
+	z-index: 0;
+	text-align: justify;
+	margin-top:24vh;
+	width: 97%; margin-left:4;
+	border: none;
+	border-style:none ;
+	font-size:5vh;
+
+}
+.Card{
+	width: 98%;
+	background-color: #424242; 
+	height:23vh;
+	text-align: left;
+	vertical-align: middle;
+	padding: 1vh;
+	font-size: 4vh;
+}
+.CardDetails{
+	font-size:3vh%;
+}
+.PlaqIMG{
+	max-width: 20vh;
+	max-height: 20vh;
+	object-fit: contain;
+	float: left;
+	margin-right: : 5vh;
+	margin-left: 0vh;
+	margin: 1vh;
+	margin-bottom: 1vh;
+}
+
+.StandardButton{
+  font-size: 70%;
+  display: inline-block;
+  height: 36px;
+  min-width: 88px;
+  padding: 6px 16px;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border:0;
+  border-radius: 2px;
+  background: #0091EA;
+  color:#fff;
+  outline:0;
+  &:focus {
+    background: darken($md-btn-color, 12%)  
+  }
+}	
+}

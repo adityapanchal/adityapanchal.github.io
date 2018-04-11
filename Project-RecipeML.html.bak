@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <title>Index</title>
+  </head>
+  <body>
+    <div id="t" style="position: static"></div>
+    <!-- From here most things are consistent with all pages -->
+    <link rel="stylesheet" type="text/css" href="universal.css">
+    <div class="FixedHeading" id="Header" name="hd"> <b>Recipe ML:</b>
+      <div class="Seperator"> </div>
+    </div>
+    <!--Consistent Content stops here-->
+    <div class="ContentHolder" id="ch">
+      This project was selected to compete in Prakalpa Event(2018).It was meant
+      to compete in the software theme-based category(Machine
+      Learning/Artificial Intelligence).This project fetched us consolation
+      prize. The initial idea of the project does not belong to me.
+      The development part was done by me.<br>
+      <hl>What does this program do?</hl><br>
+      This program gives suggestions to users for different ingredients to add
+      to their existing list of ingredients.<br>
+      <hl>How does the program do that?</hl><br>
+      The program is initially trained with the database of recipes. These
+      recipes may not belong to the same cuisine. Also the program clusters
+      ingredients as per cuisines as a secondary feature.<br>
+      <hl><u>The Machine Learning Part:</u></hl><br>
+      The program reads each recipe and prepares a table for its own usage which
+      notes down the frequency of the occurrence of each pair of ingredients
+      appearing in those recipes. The noting of frequency also takes into
+      account a weightage factor-the rating of the recipe. If the recipe has
+      higher rating the frequency noted is higher. This helps to prioritise each
+      combinations which is more likely to taste good together. <br>
+      <hl><u>The database part:</u></hl><br>
+      No external libraries were used. All the file handling was done using
+      "open()" function which is built-in in python3.The databases used for
+      training as well as storing computed values was done using CSV files. The
+      program was optimised for handling huge databases by modifying the program
+      to read each file line by line. <br>
+      <hl>Project Outcome/result:</hl><br>
+      The program was created with a CLI interface and was initially meant to be
+      used as an API.
+      The program was tested and trained with a database of 20,000 recipes which
+      was obtained from the internet(source unknown).The program was tested by
+      giving sushi as an input and the output was compared with an existing
+      asian sushi recipe. Most of the ingredients mentioned in the recipe were
+      present in the top 10 recommendations from the program output. <br>
+      <hl>Ideas for modification:</hl>
+      The API like program can be supported with the server program and can have
+      its own app as well as website/page as a GUI for users.
+    </div>
+  </body>
+</html>
