@@ -9,7 +9,7 @@ class Navbar extends Component {
   }
   refresh(){
     for(let index in this.state.children){
-      if(this.state.children[index].state != "Active"){
+      if(this.state.children[index].state !== "Active"){
         this.state.children[index].state.status ="";
       }else{
         this.state.children[index].setState({"status":""});

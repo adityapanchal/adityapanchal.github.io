@@ -6,19 +6,24 @@ class MainContent extends Component {
      this.state = {};
   }
   renderSections(){
-    let out = []
-    let data = this.props.raw.sections;
-    for(let section in data){
-        out.push(<h1 id={section+"Head"}>{data[section].title}</h1>);
-        for(let card in data[section].cards){
-          out.push(<EducationCard id={card+"Card"} raw={data[section].cards[card]}/>);
-        }
+    if (this.props.parent.state.tab==="education"){
+      let out = []
+      let data = this.props.raw.sections;
+      for(let section in data){
+          out.push(<h1 id={section+"Head"}>{data[section].title}</h1>);
+          out.push(<hr/>);
+          for(let card in data[section].cards){
+            out.push(<EducationCard id={card+"Card"+section+"Head"} raw={data[section].cards[card]}/>);
+          }
+      }
+      return out;
+    }else{
+      return (<h2> No data to display </h2>);
     }
-    return out;
   }
   render() {
       return(
-        <div className="col" style={{"backgroundColor":"#ffffff","overflow-y":"scroll","height":"100vh","minWidth":"420px","padding-bottom":"30px"}} data-spy="scroll" data-target="#navbar-example3" data-offset="0">
+        <div className="col" style={{"backgroundColor":"#ffffff","overflowY":"scroll","height":"100vh","minWidth":"420px","paddingBottom":"100px"}} data-spy="scroll" data-target="#navbar-example3" data-offset="0">
           {this.renderSections()}
         </div>
       );

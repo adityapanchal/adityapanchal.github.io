@@ -4,33 +4,36 @@ class QuickJump extends Component {
   //   super(props);
   // }
   renderraw(){
-    let out = []
-    let data = this.props.raw.sections;
-    for(let section in data){
-        out.push(<a className="nav-link" href={"#"+section+"Head"}><h5><b>{data[section].title}</b></h5></a>);
+    if(this.props.parent.state.tab==="education"){
+      let out = []
+      let data = this.props.raw.sections;
+      for(let section in data){
+          out.push(<a className="nav-link" style={{"textAlign":"left","color":"#ffffff"}} href={"#"+section+"Head"}><h5><b>{data[section].title}</b></h5></a>);
+          var out2 = function(){
+            let out2 = [];
+              for(let card in data[section].cards){
+              out2.push(<a className="nav-link ml-3 my-1" style={{"textAlign":"left","color":"#ffffff"}} href={"#"+card+"Card"+section+"Head"}>{data[section].cards[card].title}</a>)
+              }
+              return out2;
+          }
+          out2 = out2();
+          out.push(
+            <nav className="nav nav-pills flex-column">
+              {out2}
+            </nav>
+          );
 
-        var out2 = function(){
-          let out2 = [];
-            for(let card in data[section].cards){
-            out2.push(<a className="nav-link ml-3 my-1" href={"#"+card+"Card"}>{data[section].cards[card].title}</a>)
+      }
+      return out;
+    }else{
 
-            }
-            return out2;
-        }
-        out2 = out2();
-        out.push(
-          <nav className="nav nav-pills flex-column">
-
-            {out2}
-          </nav>
-        );
+        return (<h2> No data to display </h2>);
 
     }
-    return out;
   }
   render(){
     return(
-      <nav id="navbar-example3" className="navbar navbar-dark bg-dark d-none d-sm-block col-sm-2" style={{"backgroundColor":"#000000","height":"100vh"}}>
+      <nav id="navbar-example3" className="navbar navbar-dark d-none d-sm-block col-sm-2" style={{"backgroundColor":"#000000","height":"100vh"}}>
 
           <nav className="nav nav-pills flex-column">
             <a className="navbar-brand" href="#"><h3>Navigate</h3></a>
