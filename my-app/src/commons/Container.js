@@ -6,7 +6,8 @@ class Container extends Component {
     super(props);
     this.props.parent.children["container"] = this;
     this.apilist = {
-      "education":"api/education.json"
+      "education":"api/education.json",
+      "skills":"api/skills.json"
     }
     this.state = {"tab":this.props.parent.state.tab,"loaded":false,"raw":null};
   }

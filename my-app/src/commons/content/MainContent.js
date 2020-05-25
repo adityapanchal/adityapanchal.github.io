@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import EducationCard from '../templates/EducationCard.js'
+import EducationCard from '../templates/EducationCard.js';
+import SkillsCard from '../templates/SkillsCard.js';
 class MainContent extends Component {
   constructor(props){
      super(props);
@@ -14,6 +15,17 @@ class MainContent extends Component {
           out.push(<hr/>);
           for(let card in data[section].cards){
             out.push(<EducationCard id={card+"Card"+section+"Head"} raw={data[section].cards[card]}/>);
+          }
+      }
+      return out;
+    }else if (this.props.parent.state.tab==="skills"){
+      let out = []
+      let data = this.props.raw.sections;
+      for(let section in data){
+          out.push(<h1 id={section+"Head"}>{data[section].title}</h1>);
+          out.push(<hr/>);
+          for(let card in data[section].cards){
+            out.push(<SkillsCard id={card+"Card"+section+"Head"} raw={data[section].cards[card]}/>);
           }
       }
       return out;
