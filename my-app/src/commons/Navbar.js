@@ -8,9 +8,11 @@ class Navbar extends Component {
     this.onclick = this.onclick.bind(this);
   }
   refresh(){
+    console.log("Calling Refresh");
     for(let index in this.state.children){
       if(this.state.children[index].state !== "Active"){
-        this.state.children[index].state.status ="";
+        //this.state.children[index].state.status ="";
+        this.state.children[index].setState({"status":""});
       }else{
         this.state.children[index].setState({"status":""});
       }

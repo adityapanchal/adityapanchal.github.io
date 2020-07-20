@@ -51,6 +51,130 @@
 
           ],
           "image":"media/images/skills/python.png"
+        },
+        {
+          "title":"JavaScript",
+          "subtitle":{
+            "text":"Moderate",
+            "color":"#ffff00"
+          },
+          "projects":[
+            {
+              "title":"Tic-Tac-Toe Game",
+              "link":"#"
+            },
+            {
+              "title":"Personal Website",
+              "link":"#"
+            }
+
+          ],
+          "libraries":[
+            {
+              "title":"React",
+              "link":"#"
+            }
+          ],
+          "image":"media/images/skills/js.png"
+        },
+        {
+          "title":"Front-End (html/css/js)",
+          "subtitle":{
+            "text":"Moderate",
+            "color":"#ffff00"
+          },
+          "projects":[
+            {
+              "title":"Tic-Tac-Toe Game",
+              "link":"#"
+            },
+            {
+              "title":"Personal Website",
+              "link":"#"
+            }
+
+          ],
+          "libraries":[
+            {
+              "title":"Bootstrap 4.0",
+              "link":"#"
+            },
+            {
+              "title":"Material Design (getmdl.io)",
+              "link":"#"
+            }
+          ],
+          "image":"media/images/skills/html.png"
+        },
+        {
+          "title":"Java",
+          "subtitle":{
+            "text":"Familiar",
+            "color":"#ff0000"
+          },
+          "projects":[
+            {
+              "title":"Web Programming course",
+              "link":"#"
+            }
+          ],
+          "libraries":[
+            {
+              "title":"Servelets (Tomcat)",
+              "link":"#"
+            }
+          ],
+          "image":"media/images/skills/java.png"
+        }
+      ]
+    },
+    {
+      "title":"Tools and Technologies",
+      "cards":[
+        {
+          "title":"HTTP",
+          "subtitle":{
+            "text":"Implementation/ Library Usage",
+            "color":"#00ff00"
+          },
+          "image":"media/images/skills/http.png",
+          "description":"Wrote a multithreaded HTTP Server using sockets in python. Also used Servelets in Java and frameworks like Django and Flask in python for server side. Used requests library in python and the normal fetch API in JavaScript for client side usage."
+        },
+        {
+          "title":"SQL",
+          "subtitle":{
+            "text":"Database",
+            "color":"#00ff00"
+          },
+          "image":"media/images/skills/sql.jpeg",
+          "description":"Familiar with basics of database design and querying. Have used SQLite3 for prototyping and MySQL, PostGres for product deployment. Prefer to use ORM for development."
+        },
+        {
+          "title":"Linux",
+          "subtitle":{
+            "text":"Installation/ Daily Usage",
+            "color":"#00ff00"
+          },
+          "image":"media/images/skills/linux.png",
+          "description":"Used in deployment of various projects on Amazon EC2 Instances and Linode Servers. Comfortable in using Debian based flavours. Can configure servers with SSH,SCP or FTP and automated installation scripts using bash. Favours Gnome and KDE for daily desktop usage."
+        },
+        {
+          "title":"Git",
+          "subtitle":{
+            "text":"VCS",
+            "color":"#00ff00"
+          },
+          "image":"media/images/skills/git.png",
+          "description":"Used in majority of my collaborative projects. Familiar with features like Automated Kanban Board, locking and managing multiple branches and documenting in Markdown."
+        },
+        {
+          "title":"Travis",
+          "subtitle":{
+            "text":"Code Integration",
+            "color":"#00ff00"
+          },
+          "image":"media/images/skills/travis.jpeg",
+          "description":"Used in automated testing of various projects. Mainly used with pytests."
         }
       ]
     }

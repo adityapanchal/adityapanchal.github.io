@@ -9,11 +9,11 @@ class QuickJump extends Component {
       let out = []
       let data = this.props.raw.sections;
       for(let section in data){
-          out.push(<a className="nav-link" style={{"textAlign":"left","color":"#ffffff"}} href={"#"+section+"Head"}><h5><b>{data[section].title}</b></h5></a>);
+          out.push(<a className="nav-link" style={{"textAlign":"left","color":"#ffffff"}} href={"#"+section+"Head"}><b>{data[section].title}</b></a>);
           var out2 = function(){
             let out2 = [];
               for(let card in data[section].cards){
-              out2.push(<a className="nav-link ml-3 my-1" style={{"textAlign":"left","color":"#ffffff"}} href={"#"+card+"Card"+section+"Head"}>{data[section].cards[card].title}</a>)
+              out2.push(<a className="nav-link ml-2 my-1" style={{"textAlign":"left","color":"#ffffff"}} href={"#"+card+"Card"+section+"Head"}>{data[section].cards[card].title}</a>)
               }
               return out2;
           }
@@ -34,7 +34,7 @@ class QuickJump extends Component {
   }
   render(){
     return(
-      <nav id="navbar-example3" className="navbar navbar-dark d-none d-sm-block col-sm-2" style={{"backgroundColor":"#000000","height":"100vh"}}>
+      <nav id="navbar-example3" className="navbar navbar-dark d-none d-sm-none d-sm-block col-sm-2" style={{"backgroundColor":"#000000","height":"100vh","padding":"1px"}}>
 
           <nav className="nav nav-pills flex-column">
             <a className="navbar-brand" href="#"><h3>Navigate</h3></a>

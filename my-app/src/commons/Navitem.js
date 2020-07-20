@@ -7,12 +7,13 @@ class Navitem extends Component {
     this.onclick = this.onclick.bind(this);
   }
   onclick(){
-    this.props.parent.props.parent.setState({"tab":this.props.value});
-    //()=>{
-    //this.props.parent.refresh();
+    this.props.parent.props.parent.setState({"tab":this.props.value},
+    ()=>{
+    console.log("called setState");
     this.setState({"status":"active"});
-    //}
-    this.state.status = "active";
+    }
+    );
+
 
   }
   render() {

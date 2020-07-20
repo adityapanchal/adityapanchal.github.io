@@ -16,6 +16,7 @@ class App extends Component {
   componentDidUpdate(){
     console.log(this.state.tab);
     this.children["navbar"].refresh();
+    // this.render();
     this.children["container"].setState({"tab":this.state.tab,"loaded":false});
 
   }

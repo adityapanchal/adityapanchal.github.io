@@ -25,7 +25,7 @@ class MainContent extends Component {
           out.push(<h1 id={section+"Head"}>{data[section].title}</h1>);
           out.push(<hr/>);
           for(let card in data[section].cards){
-            out.push(<SkillsCard id={card+"Card"+section+"Head"} raw={data[section].cards[card]}/>);
+            out.push(<SkillsCard id={card+"Card"+section+"Head"} section={data[section].title} raw={data[section].cards[card]}/>);
           }
       }
       return out;
@@ -35,7 +35,7 @@ class MainContent extends Component {
   }
   render() {
       return(
-        <div className="col" style={{"backgroundColor":"#ffffff","overflowY":"scroll","height":"100vh","minWidth":"420px","paddingBottom":"100px"}} data-spy="scroll" data-target="#navbar-example3" data-offset="0">
+        <div className="col col-sm-10" style={{"backgroundColor":"#ffffff","overflowY":"scroll","height":"100vh","paddingBottom":"100px"}} data-spy="scroll" data-target="#navbar-example3" data-offset="0">
           {this.renderSections()}
         </div>
       );
