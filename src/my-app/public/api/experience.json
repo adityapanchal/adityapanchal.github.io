@@ -148,7 +148,7 @@
             "color":"#4c4c4c"
           },
           "image":"media/images/experience/iste.png",
-          "description":"As First Years we entered in the project competetion of Prakalpa 2018 hosted by ISTE. We made a recommender system to suggest ingredients to existing recipies by training the model to recognise the patterns in which ingredients 'go well' togather.",
+          "description":"As First Years we entered in the project competition of Prakalpa 2018 hosted by ISTE. We made a recommender system to suggest ingredients to existing recipes by training the model to recognise the patterns in which ingredients 'go well' together.",
           "domains":[
             {
               "title":"Machine Learning",
