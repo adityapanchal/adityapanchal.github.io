@@ -1,0 +1,40 @@
+{
+  "data":[
+    {
+      "title":"Landscape Analysis of OCSA & OCSE",
+      "timestamp":"November 2019 - January 2020",
+      "icon":"article",
+      "description":"-"
+    },
+    {
+      "title":"Selected as Gen. Secretary (CSI-KJSCE)",
+      "timestamp":"August 2019 - June 2020",
+      "icon":"work",
+      "description":"Contributed to management aspect of the council. Managed internal teams and their co-ordination, played a role in planning events and their execution and related administrative activities."
+    },
+    {
+      "title":"Ethical Hacking and Defense Mechanisms",
+      "timestamp":"August-November 2019",
+      "icon":"code",
+      "description":"Completed an extra audit course after college hours, where we used tools like nmap, Burpsuite,metasploit, wireshark and wrote scripts for attacking a DVWA Server."
+    },
+    {
+      "title":"IIT-B Virtual Labs Bootcamp",
+      "timestamp":"6th February 2019",
+      "icon":"code",
+      "description":"Visited MIT Aurangabad for a five day bootcamp, where we created a Virtual Lab for demonstrating the working of Hamming Code for educational purposes."
+    },
+    {
+      "title":"Selected as member of Tech Team (CSI-KJSCE)",
+      "timestamp":"June 2018-August 2019",
+      "icon":"work",
+      "description":"Contributed to the Tech council of KJSCE which included responsibilities in creating materials for workshop, conducting and managing events and creating questions for competetions."
+    },
+    {
+      "title":"Prakalpa 18",
+      "timestamp":"17th March 2018",
+      "icon":"emoji_events",
+      "description":"Won consolation prize in the annual competetion Prakalpa, where we demonstrated an indgredient reccomending model for new recipies."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "sections":[
+    {
+      "title":"Graduation",
+      "cards":[
+        {
+          "title":"K. J. Somaiya College of Engineering",
+          "subtitle":"B.Tech - IT (2017 - Ongoing)",
+          "description":"Vidyavihar (East)<br>Mumbai-400077<br>",
+          "image":"media/images/education/kjsce.png",
+          "links":{
+            "primary":{
+              "label":"Visit Website",
+              "href":"https://kjsce.somaiya.edu/en"
+            },
+            "secondary":{
+              "label":"View on Map",
+              "href":"https://www.google.co.in/maps/place/K.J.+Somaiya+College+Of+Engineering/@19.0730847,72.8976334,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7c627a20bcaa9:0xb2fd3bcfeac0052a!8m2!3d19.0730847!4d72.8998221?shorturl=1"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "title":"Junior College",
+      "cards":[
+        {
+          "title":"IITian's Pace",
+          "subtitle":"HSC Science (2015-2017)",
+          "description":"Borivali (West)<br>Mumbai-400092<br>",
+          "image":"media/images/education/pace.png",
+          "links":{
+            "primary":{
+              "label":"Visit Website",
+              "href":"https://iitianspace.com/"
+            },
+            "secondary":{
+              "label":"View on Map",
+              "href":"https://www.google.co.in/maps/place/PACE/@19.2324447,72.8534199,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7b13affffffff:0xc171dea47945c528!8m2!3d19.2324447!4d72.8556086?shorturl=1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title":"School",
+      "cards":[
+        {
+          "title":"Oxford Public School",
+          "subtitle":"SSC (2005-2015)",
+          "description":"Kandivali (West)<br>Mumbai-400067<br>",
+          "image":"media/images/education/oxford.png",
+          "links":{
+            "primary":{
+              "label":"Visit Website",
+              "href":"http://www.oxford.org.in/default.aspx"
+            },
+            "secondary":{
+              "label":"View on Map",
+              "href":"https://www.google.co.in/maps/place/Oxford+Public+School/@19.2175003,72.8231405,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7b1356d06cff5:0x298af04640c56d08!8m2!3d19.2175003!4d72.8253292?shorturl=1"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
