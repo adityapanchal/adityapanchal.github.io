@@ -1,0 +1,192 @@
+{
+  "sections":[
+    {
+      "title":"Projects",
+      "cards":[
+        {
+          "title":"Landscape Analysis of OCSA & OCSE",
+          "subtitle":{
+            "text":"Team Project",
+            "color":"#4c4c4c"
+          },
+          "image":"media/images/experience/CIFF.png",
+          "description":"-",
+          "domains":[
+            {
+              "title":"Security",
+              "href":"#"
+            },
+            {
+              "title":"Web Scraping",
+              "href":"#"
+            },
+            {
+              "title":"Crawling",
+              "href":"#"
+            },
+            {
+              "title":"Multithreading",
+              "href":"#"
+            }
+          ],
+          "techstack":[
+            {
+              "title":"python3",
+              "href":"#"
+            },
+            {
+              "title":"BeautifulSoup",
+              "href":"#"
+            },
+            {
+              "title":"requests",
+              "href":"#"
+            }
+          ]
+        },
+        {
+          "title":"Tic-Tac-Toe",
+          "subtitle":{
+            "text":"Workshop",
+            "color":"#4c4c4c"
+          },
+          "image":"media/images/experience/csi.png",
+          "description":"Simple Tic-Tac-Toe Web App, containing different modes, Game Logic built using JavaScript with React.js library. This was made as the supporting material for the CSI-KJSCE's Workshop on React.js.",
+          "domains":[
+            {
+              "title":"Single Page App",
+              "href":"#"
+            },
+            {
+              "title":"Material Design",
+              "href":"#"
+            },
+            {
+              "title":"Game",
+              "href":"#"
+            }
+
+          ],
+          "techstack":[
+            {
+              "title":"React",
+              "href":"#"
+            },
+            {
+              "title":"material.io",
+              "href":"#"
+            }
+          ]
+        },
+        {
+          "title":"Blog Website",
+          "subtitle":{
+            "text":"Workshop",
+            "color":"#4c4c4c"
+          },
+          "image":"media/images/experience/csi.png",
+          "description":"A blog website was created to demonstrate the functionalities of Flask micro-framework, highlighting the Jinja templating engine and usage of the SQL Alchemy ORM.",
+          "domains":[
+              {
+                "title":"Web development",
+                "href":"#"
+              }
+          ],
+          "techstack":[
+            {
+              "title":"python3",
+              "href":"#"
+            },
+            {
+              "title":"Flask",
+              "href":"#"
+            },
+            {
+              "title":"Jinja2",
+              "href":"#"
+            },
+            {
+              "title":"SQL Alchemy",
+              "href":"#"
+            },
+            {
+              "title":"Bootstrap4",
+              "href":"#"
+            }
+          ]
+        },
+        {
+          "title":"Pong",
+          "subtitle":{
+            "text":"Workshop",
+            "color":"#4c4c4c"
+          },
+          "image":"media/images/experience/csi.png",
+          "description":"Two player pong game made for teaching Game development in python. With three game objects and their mechanics including the math behind the collision detection was explained.",
+          "domains":[
+            {
+              "title":"Game development",
+              "href":"#"
+            }
+
+          ],
+          "techstack":[
+            {
+              "title":"python3",
+              "href":"#"
+            },
+            {
+              "title":"pygame",
+              "href":"#"
+            }
+          ]
+        },
+        {
+          "title":"Machine Learning in Culinary Art",
+          "subtitle":{
+            "text":"Group Project",
+            "color":"#4c4c4c"
+          },
+          "image":"media/images/experience/iste.png",
+          "description":"As First Years we entered in the project competetion of Prakalpa 2018 hosted by ISTE. We made a recommender system to suggest ingredients to existing recipies by training the model to recognise the patterns in which ingredients 'go well' togather.",
+          "domains":[
+            {
+              "title":"Machine Learning",
+              "href":"#"
+            }
+
+          ],
+          "techstack":[
+            {
+              "title":"python3",
+              "href":"#"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title":"Experience",
+      "cards":[
+        {
+          "title":"CSI-KJSCE",
+          "subtitle":{
+            "text":"General Secretary (19-20)",
+            "color":"#000000"
+          },
+          "image":"media/images/experience/csi.png",
+          "description":"Was the head of the council with the role majorly involving descision making, co-ordinating with different teams within the council."
+        },
+        {
+          "title":"CSI-KJSCE",
+          "subtitle":{
+            "text":"Tech Team (18-19)",
+            "color":"#000000"
+          },
+          "image":"media/images/experience/csi.png",
+          "description":"Was part of the technical team, which involved contributing in developing content for various workshops, hosting competetive coding questions and other tech related aspects."
+        }
+      ]
+    }
+  ]
+}

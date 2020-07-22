@@ -10,7 +10,8 @@ class App extends Component {
     this.options = {
       "home":{"label":"Home","status":"active"},
       "education":{"label":"Education","status":""},
-      "skills":{"label":"Skills","status":""}
+      "skills":{"label":"Skills","status":""},
+      "experience":{"label":"Projects and Experience","status":""}
     };
   }
   componentDidUpdate(){

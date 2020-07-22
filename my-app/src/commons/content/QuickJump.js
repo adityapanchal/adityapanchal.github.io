@@ -5,7 +5,7 @@ class QuickJump extends Component {
   // }
   renderraw(){
 
-    if(this.props.parent.state.tab === "education" || this.props.parent.state.tab === "skills"){
+    if(this.props.parent.state.tab === "education" || this.props.parent.state.tab === "skills"||this.props.parent.state.tab === "experience"){
       let out = []
       let data = this.props.raw.sections;
       for(let section in data){
