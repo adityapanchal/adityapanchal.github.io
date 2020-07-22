@@ -38,7 +38,7 @@ class Navbar extends Component {
       <header className="navbar navbar-expand-lg navbar-dark sticky-top" style={{'backgroundColor':'#000000'}}>
 
         <a className="navbar-brand" onClick={this.onclick}>
-          <img src="/icons/personal/Logo.bmp" width="30" height="30" className="d-inline-block align-top" alt=""/>
+          <img src="/media/images/Logo.bmp" width="30" height="30" className="d-inline-block align-top" alt=""/>
           <span style={{margin:'3%'}}>Aditya Panchal</span>
         </a>
 
